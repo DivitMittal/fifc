@@ -14,15 +14,13 @@ function _fifc_preview_file -d "Preview the selected file with the right tool de
             else
                 cat "$fifc_candidate"
             end
-        case image pdf
+        case image
             if type -q wezterm
                 wezterm imgcat "$fifc_candidate"
-            else
-              if type -q chafa
+            else if type -q chafa
                   chafa $fifc_chafa_opts "$fifc_candidate"
-              else
+            else
                   _fifc_preview_file_default "$fifc_candidate"
-              end
             end
         case archive
             if type -q ouch
