@@ -56,10 +56,11 @@ fifc can use modern tools if available:
 | Prefer                                           | Fallback to | Used for                                  | Custom options     |
 | ------------------------------------------------ | ----------- | ----------------------------------------- | ------------------ |
 | [bat](https://github.com/sharkdp/bat)            | cat         | Preview files                             | `$fifc_bat_opts`   |
-| [chafa](https://github.com/hpjansson/chafa)/[wezterm's imgcat](https://wezfurlong.org/wezterm/imgcat.html)      | file        | Preview images, gif, etc.              | `$fifc_chafa_opts` |
+| [chafa](https://github.com/hpjansson/chafa) / [wezterm's imgcat](https://wezfurlong.org/wezterm/imgcat.html)| file| Preview images, gif, etc.|`$fifc_chafa_opts` / `$fifc_imgcat_opts`|
+| [ouch](https://github.com/ouch-org/ouch)         | 7z          | Preview files                             | `$fifc_bat_opts`   |
 | [hexyl](https://github.com/sharkdp/hexyl)        | file        | Preview binaries                          | `$fifc_hexyl_opts` |
 | [fd](https://github.com/sharkdp/fd)              | find        | Complete paths                            | `$fifc_fd_opts`    |
-| [eza](https://github.com/eza-community/eza)              | ls          | Preview directories                       | `$fifc_eza_opts`   |
+| [eza](https://github.com/eza-community/eza)      | ls          | Preview directories                       | `$fifc_eza_opts`   |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | pcregrep    | Search options in man pages               | -                  |
 | [procs](https://github.com/dalance/procs)        | ps          | Complete processes and preview their tree | `$fifc_procs_opts` |
 | [broot](https://github.com/Canop/broot)          | -           | Explore directory trees                   | `$fifc_broot_opts` |
