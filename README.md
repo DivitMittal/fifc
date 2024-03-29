@@ -57,7 +57,7 @@ fifc can use modern tools if available:
 | ------------------------------------------------ | ----------- | ----------------------------------------- | ------------------ |
 | [bat](https://github.com/sharkdp/bat)            | cat         | Preview files                             | `$fifc_bat_opts`   |
 | [chafa](https://github.com/hpjansson/chafa) / [wezterm's imgcat](https://wezfurlong.org/wezterm/imgcat.html)| file| Preview images, gif, etc.|`$fifc_chafa_opts` / `$fifc_imgcat_opts`|
-| [ouch](https://github.com/ouch-org/ouch)         | 7z          | Preview files                             | `$fifc_bat_opts`   |
+| [ouch](https://github.com/ouch-org/ouch)         | 7z          | Preview archives                          | `$fifc_ouch_opts`  |
 | [hexyl](https://github.com/sharkdp/hexyl)        | file        | Preview binaries                          | `$fifc_hexyl_opts` |
 | [fd](https://github.com/sharkdp/fd)              | find        | Complete paths                            | `$fifc_fd_opts`    |
 | [eza](https://github.com/eza-community/eza)      | ls          | Preview directories                       | `$fifc_eza_opts`   |
